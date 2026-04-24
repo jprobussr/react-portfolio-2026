@@ -57,7 +57,7 @@ p {
 }
 
 .hero {
-  padding: 5rem 0 4rem;
+  padding: 4rem 0 3rem;
 }
 
 .eyebrow {
@@ -148,4 +148,57 @@ p {
 
 .site-nav a:hover {
   color: var(--text);
+}
+
+.projects-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+
+.project-category {
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.project-links a {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  color: var(--accent);
 }

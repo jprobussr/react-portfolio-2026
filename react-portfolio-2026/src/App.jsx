@@ -1,4 +1,6 @@
-import React from 'react';
+import { projects } from "./data.js";
+
+console.log(projects)
 
 const App = () => {
   return (
@@ -40,6 +42,23 @@ const App = () => {
         <section className="projects-section" id="projects">
           <div className="container">
             <h2 className="section-title">Featured Projects</h2>
+
+          <div className="projects-grid">
+            {projects.map((project) => {
+              return (
+                <article key={project.id} className="project-card">
+                  <p className="project-category">{project.category}</p>
+                  <h3 className="project-title">{project.title}</h3>
+                  <p className="project-description">{project.description}</p>
+                  <div className="project-links">
+                    <a href={project.liveUrl}>Live Site</a>
+                    <a href={project.repoUrl}>GitHub</a>
+                  </div>
+                </article>  
+              )
+            })}
+          </div>
+
           </div>
         </section>
       </main>
