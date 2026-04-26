@@ -1,3 +1,7 @@
+import dogWalkingImg from './assets/dog-walkers-img.png';
+import codingJournalImg from './assets/coding-journal.png';
+import foodOrderingImg from './assets/food-ordering-app.png';
+
 export const projects = [
   {
     id: 1,
@@ -6,6 +10,7 @@ export const projects = [
     description:
       'A mobile-first dog walking app built with React, focused on service layout, responsive design, and a polished user experience.',
     tech: ['React', 'CSS', 'Vite'],
+    image: dogWalkingImg,
     liveUrl: 'https://jprobussr.github.io/dog-walkers-react-app/',
     repoUrl: 'https://github.com/jprobussr/dog-walkers-react-app',
   },
@@ -16,6 +21,7 @@ export const projects = [
     description:
       'A React project showcase app with reusable data, responsive cards, and a clean dark UI for presenting frontend work.',
     tech: ['React', 'CSS', 'Vite'],
+    image: codingJournalImg,
     liveUrl: 'https://jprobussr.github.io/coding-journal-react/',
     repoUrl: 'https://github.com/jprobussr/coding-journal-react/tree/main',
   },
@@ -26,6 +32,7 @@ export const projects = [
     description:
       'A mobile-first food ordering interface with cart interactions, dynamic UI states, theme toggling, and responsive JavaScript behavior.',
     tech: ['HTML', 'CSS', 'JavaScript'],
+    image: foodOrderingImg,
     liveUrl: 'https://jprobussr.github.io/food-ordering-ui/',
     repoUrl: 'https://github.com/jprobussr/food-ordering-ui',
   },

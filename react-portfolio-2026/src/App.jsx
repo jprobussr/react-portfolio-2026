@@ -47,6 +47,7 @@ const App = () => {
               {projects.map((project) => {
                 return (
                   <article key={project.id} className="project-card">
+                    <img src={project.image} alt={project.title} className="project-image" />
                     <p className="project-category">{project.category}</p>
                     <h3 className="project-title">{project.title}</h3>
                     <p className="project-description">{project.description}</p>
