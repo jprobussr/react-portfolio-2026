@@ -1,7 +1,5 @@
 import { projects } from './data.js';
 
-console.log(projects);
-
 const App = () => {
   return (
     <div className="app-shell">
