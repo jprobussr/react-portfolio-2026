@@ -1,16 +1,36 @@
-# React + Vite
+# React Portfolio 2026
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React portfolio showcasing selected frontend projects with a focus on clean UI, responsive design, and user experience.
 
-Currently, two official plugins are available:
+## 🔗 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Built With
 
-## React Compiler
+- React
+- Vite
+- CSS (custom design system)
+- GitHub Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Featured Projects
 
-## Expanding the ESLint configuration
+### Dog Walking App
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A mobile-first React app focused on service layout, responsive design, and a polished user experience.
+
+### Coding Journal
+
+A React project showcase app with reusable data, responsive cards, and a clean dark UI.
+
+### Food Ordering App
+
+An interactive food ordering interface with dynamic UI states, cart behavior, and responsive design.
+
+## 🎯 Purpose
+
+This portfolio highlights my ability to design and build responsive, user-focused interfaces using modern frontend technologies.
+
+## 📬 Contact
+
+- Email: johnprobussr@gmail.com
+- GitHub: https://github.com/jprobussr
+- LinkedIn: https://www.linkedin.com/in/jprobussr/
