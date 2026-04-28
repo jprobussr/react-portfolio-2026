@@ -35,9 +35,11 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   line-height: 1.2;
   letter-spacing: -0.02em;
+  font-family: 'Inter', system-ui, sans-serif;
 }
 
 h1,
@@ -241,4 +243,32 @@ p {
 
 .project-card:hover .project-image {
   transform: scale(1.03);
+}
+
+.contact-section {
+  padding: 4rem 0;
+}
+
+.contact-description {
+  max-width: 40rem;
+  margin-top: 1rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.contact-links a {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  color: var(--accent);
 }

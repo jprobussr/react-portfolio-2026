@@ -34,6 +34,14 @@ const App = () => {
             <a href="#contact" className="button button-secondary">
               Contact Me
             </a>
+            <a
+              href="/resume-john-probus.pdf"
+              className="button button-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Resume
+            </a>
           </div>
         </div>
       </section>
@@ -47,7 +55,11 @@ const App = () => {
               {projects.map((project) => {
                 return (
                   <article key={project.id} className="project-card">
-                    <img src={project.image} alt={project.title} className="project-image" />
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="project-image"
+                    />
                     <p className="project-category">{project.category}</p>
                     <h3 className="project-title">{project.title}</h3>
                     <p className="project-description">{project.description}</p>
@@ -59,12 +71,55 @@ const App = () => {
                     </ul>
 
                     <div className="project-links">
-                      <a href={project.liveUrl}>Live Site</a>
-                      <a href={project.repoUrl}>GitHub</a>
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`View live site for ${project.title}`}
+                      >
+                        Live Site
+                      </a>
+                      <a
+                        href={project.repoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`View GitHub repository for ${project.title}`}
+                      >
+                        GitHub
+                      </a>
                     </div>
                   </article>
                 );
               })}
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" className="contact-section">
+          <div className="container">
+            <h2 className="section-title">Contact</h2>
+
+            <p className="contact-description">
+              I'm currently open to frontend opportunities. If you'd like to
+              work together or have any questions, feel free to reach out.
+            </p>
+
+            <div className="contact-links">
+              <a href="mailto:johnprobussr@gmail.com">Email</a>
+              <a
+                href="https://github.com/jprobussr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jprobussr/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
             </div>
           </div>
         </section>
