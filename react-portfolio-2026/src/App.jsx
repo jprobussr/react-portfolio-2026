@@ -33,7 +33,7 @@ const App = () => {
               Contact Me
             </a>
             <a
-              href="/resume-john-probus.pdf"
+              href="/react-portfolio-2026/resume-john-probus.pdf"
               className="button button-secondary"
               target="_blank"
               rel="noopener noreferrer"
