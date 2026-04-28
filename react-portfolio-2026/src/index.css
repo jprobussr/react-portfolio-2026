@@ -17,29 +17,16 @@
 
 body {
   margin: 0;
-  font-family:
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Open Sans',
-    'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
   background-color: var(--bg);
   color: var(--text);
   line-height: 1.5;
 }
 
 h1,
-h2,
-h3 {
+h2 {
   line-height: 1.2;
   letter-spacing: -0.02em;
-  font-family: 'Inter', system-ui, sans-serif;
 }
 
 h1,
@@ -54,7 +41,8 @@ p {
 }
 
 .hero,
-.projects-section {
+.projects-section,
+.contact-section {
   padding: 4rem 0;
 }
 
@@ -81,6 +69,7 @@ p {
 
 .section-title {
   font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
 
 .hero-actions {
@@ -162,7 +151,7 @@ p {
 .project-card {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1rem;
   background-color: var(--surface);
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -246,12 +235,12 @@ p {
 }
 
 .contact-section {
-  padding: 4rem 0;
+  padding-bottom: 5rem;
 }
 
 .contact-description {
   max-width: 40rem;
-  margin-top: 1rem;
+  margin: 1rem 0;
   color: var(--muted);
   line-height: 1.6;
 }
@@ -271,4 +260,33 @@ p {
 
 .contact-links a:hover {
   color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .header-content {
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .site-nav {
+    gap: 0.75rem;
+  }
+
+  .hero {
+    padding-top: 3rem;
+  }
+
+  .hero-actions,
+  .contact-links {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .project-description {
+    min-height: auto;
+  }
 }
