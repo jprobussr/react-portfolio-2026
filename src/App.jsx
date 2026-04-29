@@ -130,9 +130,27 @@ const App = () => {
           </p>
 
           <div className="footer-links">
-            <a href="https://github.com/jprobussr">GitHub</a>
-            <a href="https://www.linkedin.com/in/jprobussr/">LinkedIn</a>
-            <a href="mailto:johnprobussr@gmail.com">Email</a>
+            <a
+              href="https://github.com/jprobussr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jprobussr/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="mailto:johnprobussr@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Email
+            </a>
           </div>
         </div>
       </footer>
