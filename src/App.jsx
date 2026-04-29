@@ -122,6 +122,20 @@ const App = () => {
           </div>
         </section>
       </main>
+
+      <footer className="site-footer">
+        <div className="container">
+          <p>
+            &copy; {new Date().getFullYear()} John Probus. Built with React.
+          </p>
+
+          <div className="footer-links">
+            <a href="https://github.com/jprobussr">GitHub</a>
+            <a href="https://www.linkedin.com/in/jprobussr/">LinkedIn</a>
+            <a href="mailto:johnprobussr@gmail.com">Email</a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
