@@ -95,29 +95,29 @@ const App = () => {
 
         <section id="contact" className="contact-section">
           <div className="container">
-            <h2 className="section-title">Contact</h2>
-
-            <p className="contact-description">
-              I'm currently open to frontend opportunities. If you'd like to
-              work together or have any questions, feel free to reach out.
-            </p>
-
-            <div className="contact-links">
-              <a href="mailto:johnprobussr@gmail.com">Email</a>
-              <a
-                href="https://github.com/jprobussr"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-              <a
-                href="https://www.linkedin.com/in/jprobussr/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
+            <div className="contact-card">
+              <h2 className="section-title">Contact</h2>
+              <p className="contact-description">
+                I'm currently open to frontend opportunities. If you'd like to
+                work together or have any questions, feel free to reach out.
+              </p>
+              <div className="contact-links">
+                <a href="mailto:johnprobussr@gmail.com">Email</a>
+                <a
+                  href="https://github.com/jprobussr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/jprobussr/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </div>
             </div>
           </div>
         </section>
