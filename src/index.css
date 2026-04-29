@@ -58,6 +58,20 @@ p {
   padding: 4rem 0 3rem;
 }
 
+.hero-grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-image {
+  width: min(100%, 260px);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+}
+
 .eyebrow {
   color: var(--accent);
   margin-bottom: 1rem;
@@ -377,5 +391,30 @@ button:focus-visible {
 
   .contact-links a {
     width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-image-wrap {
+    justify-self: center;
+    margin-top: 1.5rem;
+  }
+
+  .hero-image {
+    width: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1.3fr 0.7fr;
+  }
+
+  .hero-image-wrap {
+    justify-self: end;
+  }
+
+  .hero-image {
+    width: 260px;
   }
 }

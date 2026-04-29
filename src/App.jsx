@@ -1,5 +1,6 @@
 import { projects } from './data.js';
 
+
 const App = () => {
   return (
     <div className="app-shell">
@@ -16,30 +17,36 @@ const App = () => {
       </header>
 
       <section className="hero" id="top">
-        <div className="container">
+        <div className="container hero-grid">
+          <div className="hero-content">
           <p className="eyebrow">Frontend Developer</p>
-          <h1 className="hero-title">John Probus</h1>
-          <p className="hero-description">
-            I'm a frontend developer focused on building responsive React
-            interfaces with clean design, thoughtful UX, and accessible user
-            experiences.
-          </p>
+            <h1 className="hero-title">John Probus</h1>
+            <p className="hero-description">
+              I'm a frontend developer focused on building responsive React
+              interfaces with clean design, thoughtful UX, and accessible user
+              experiences.
+            </p>
 
-          <div className="hero-actions">
-            <a href="#projects" className="button button-primary">
-              View Projects
-            </a>
-            <a href="#contact" className="button button-secondary">
-              Contact Me
-            </a>
-            <a
-              href="/react-portfolio-2026/resume-john-probus.pdf"
-              className="button button-secondary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Resume
-            </a>
+            <div className="hero-actions">
+              <a href="#projects" className="button button-primary">
+                View Projects
+              </a>
+              <a href="#contact" className="button button-secondary">
+                Contact Me
+              </a>
+              <a
+                href="/react-portfolio-2026/resume-john-probus.pdf"
+                className="button button-secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Resume
+              </a>
+            </div>
+          </div>
+
+          <div className="hero-image-wrap">
+            <img src="/react-portfolio-2026/profile.jpg" alt="John Probus" className="hero-image" />
           </div>
         </div>
       </section>
